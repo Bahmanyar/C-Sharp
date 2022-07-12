@@ -35,7 +35,31 @@ namespace Chapter02.Sample01._00_Comments
 
         //Half data type >> C#5
         //Single data type >> C#5
-        //
+
+        //if:
+        //Ex1:
+        //if(object is Person)
+        //{...}
+        //Ex2:
+        //if(object is Person p)
+        //{...}
+
+        //switch:
+        //switch expression >> c#10
+
+        //loops:
+        //pre-test & post-test loop types
+        //Continue,return,break in loops
+
+        //NameSpace:
+        //file scope NameSpace >> C#10
+        //using myNS= NS1.NS2.NS3; >> use "myNS" instead of long line of name spaces
+        //Global using >> C#10  --> global using  NS1.NS2.NS3; --> global for all assembly area
+        //Implicit using >> C#6 --> very useful
+
+        //xml documentation --> xml file in which system collects xml comments
+
+
         #endregion
     }
 }
