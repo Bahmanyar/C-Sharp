@@ -63,7 +63,18 @@ namespace Chapter02.Sample01._00_Comments
         #endregion
 
         #region [- Chapter 3 -]
-
+        //Class
+        //Structure
+        //Record
+        //Tuple
+        //Value Type vs. Refrence Type
+        //by value vs. by refernce data transfering
+        //readonly vs constant
+        #region [- Field -]        
+        //When we need to store data in the inner class algorithms
+        //private or private readonly  
+        //states for inner logic class
+        #endregion
         #endregion
     }
 }
