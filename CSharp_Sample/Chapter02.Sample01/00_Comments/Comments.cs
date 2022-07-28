@@ -76,5 +76,49 @@ namespace Chapter02.Sample01._00_Comments
         //states for inner logic class
         #endregion
         #endregion
+
+
+        #region [- Chapter 6 -]
+        //var result = input == 0 ? "Zero" : "NotZero";
+
+        #region [- Checked block -]
+        //Checked block:
+        //Checking overhead has many cpu cost and it is not implicit. 
+        //not good : tick "check overflow automatically in project properties
+        #endregion
+
+        //is
+        //as
+        //NameOf() --> prevent hard coding
+
+        #region [- Cheking Null -]
+        #region [- First Way -]
+        //Check null with traid operator
+        // int b = a == null ? 0: a.value;  
+        #endregion
+
+        #region [- Second Way : good -]
+        //Check null with ??
+        // int b = a ?? 0;  
+        #endregion
+
+
+
+        #endregion
+
+        #region [- TypeSafety -]
+        //Describe TypeSafety in C# <== C# is Strongly typed
+        //javascript is not strongly typed ==> javascript is not TypeSafe
+        // C# is Strongly typed ==> C# is  TypeSafe 
+        #endregion
+
+        #region [- Casting -]
+        //implicit --> when we don't have loosing data
+        //explicit --> when we  have loosing data
+
+        #endregion
+
+        #endregion
+
     }
 }
