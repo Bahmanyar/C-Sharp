@@ -77,7 +77,6 @@ namespace Chapter02.Sample01._00_Comments
         #endregion
         #endregion
 
-
         #region [- Chapter 6 -]
         //var result = input == 0 ? "Zero" : "NotZero";
 
@@ -120,5 +119,47 @@ namespace Chapter02.Sample01._00_Comments
 
         #endregion
 
+
+        #region [- Chapter 9 -]
+
+        #region [- Collections -]
+        //Array
+        //Collection
+        //List 
+        //Setting Capacity for List:
+        //Capacity: List<string> _comments=new List<string>(capacity:10);
+        //Ensure Capacity: 
+        //listObject.EnsureCapacity(20); //Addup capacity
+        //.Remove()
+        //.RemoveAll(c=>c.startswith("a"))
+        //.RemoveAt(12) --> remove 12th element of the list
+        //.RemoveRange(2,4) --> remove 4 items starts  from 2th element
+        //.Clear() --> empty list completely
+        //.Insert(5,"A") --> Insert "A" in the 5th element
+        //.Find(c=>c.startswith("a"))
+        //.FindAll(c=>c.startswith("a")),...
+        //.FindLast() ,...
+
+        //IReadOnlyList
+        //LinkedList
+        //SortedList<Key,Value>
+        //Dictionary == HashTable == Map == Key value pair list
+        //SortedDictionary ==> Very good for performance
+
+        //Set ==> Collections with unique values
+        //SortedSet
+        //HashSet
+        //DataSet in Ado.net
+
+        //Immutable Collections
+        #endregion
+
+
+
+        //Bug vs. UserError vs. Exception
+        //Intrinsic Public Exception Handler for .net 
+        //in c#6:
+        //Chatch filtering with "when"
+        #endregion
     }
 }
