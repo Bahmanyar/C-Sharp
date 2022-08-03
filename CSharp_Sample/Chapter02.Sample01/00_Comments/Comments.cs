@@ -154,12 +154,17 @@ namespace Chapter02.Sample01._00_Comments
         //Immutable Collections
         #endregion
 
-
-
         //Bug vs. UserError vs. Exception
         //Intrinsic Public Exception Handler for .net 
         //in c#6:
         //Chatch filtering with "when"
+        #endregion
+
+        #region [- Chapter 10 : LINQ -]
+        //Query base
+        //Method base --> better
+        //Deffered execution vs. Immidiate execution --> Method base is Immidiate
+
         #endregion
     }
 }
